@@ -38,8 +38,8 @@
                 <img src="./image/active-non.svg" alt="active">
             </div>
             <div class="btn-item">
-                <button id="left" class="btn-arrow" type="button">&lt;</button>
-                <button id="right" class="btn-arrow" type="button">&gt;</button>
+                <button id="left" class="btn-arrow-left" type="button"><img src="./image/btn-arrow-left.svg" alt="arrow"></button>
+                <button id="right" class="btn-arrow-right" type="button"><img src="./image/btn-arrow-right.svg" alt="arrow"></button>
             </div>
             <div class="content__hero-content">
                 <h1>High-Quality Furniture Just<br> For You</h1>
@@ -103,7 +103,6 @@
                 </div>
             </div>
         </section>
-
         <section class="product">
             <h2>Our Products</h2>
             <div class="product__blog">
@@ -196,22 +195,20 @@
                 <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
                 <button>Explore More</button>
             </div>
-            <div>
-                <img src="./image/inspirations-1.svg" alt="inspirations">
-                <div>
-                    <p>01 --- Bed Room</p>
-                    <p>Inner Peace</p>
+            <div class="inspirations__image">
+                <div class="image-one">
+                    <img src="./image/inspirations-1.svg" alt="inspiration">
+                    <div class="image-one__name">
+                        <p>01 --- Bed Room</p>
+                        <p class="text-promo">Inner Peace</p>
+                    </div>
+                    <button class="image-one__arrow"></button>
                 </div>
-                <button><img src="./image/btn-arrow-right-2.svg" alt=""></button>
-            </div> 
-            <div>
-                <div>
-                    <div>
-                        <img src="./image/inspirations-2.svg" alt="inspirations">
-                    </div>
-                    <div>
-                        <img src="./image/inspirations-3.svg" alt="inspirations">
-                    </div>
+                <div class="image-two">
+                    <img src="./image/inspirations-2.svg" alt="inspiration">
+                </div>
+                <div class="image-three">
+                    <img src="./image/inspirations-3.svg" alt="inspiration">
                 </div>
                 <div class="active">
                     <img src="./image/active.svg" alt="active">
@@ -219,12 +216,52 @@
                     <img src="./image/active-non.svg" alt="active">
                     <img src="./image/active-non.svg" alt="active">
                 </div>
+                <button id="inspirations-btn" type="button" class="btn-arrow"></button>
             </div>
-            
-
         </section>
-        <section></section>
-        <section></section>
+        <section class="tipsTricks">
+            <h2>Tip & Tricks</h2>
+            <div class="tipsTricks__item">
+                <div class="tipsTricks__item__setting">
+                    <img src="./image/tricks-1.svg" alt="Tricks">
+                    <h3>How to create a living <br> room to love</h3>
+                    <p>20 jan 2020</p>
+                </div>
+                <div class="tipsTricks__item__setting">
+                    <img src="./image/tricks-2.svg" alt="Tricks">
+                    <h3>Solution for clean look working space</h3>
+                    <p>10 jan 2020</p>
+                </div>
+                <div class="tipsTricks__item__setting">
+                    <img src="./image/tricks-3.svg" alt="Tricks">
+                    <h3> Make your cooking activity more fun with good setup</h3>
+                    <p>20 jan 2020</p>
+                </div>
+                <button type="button" class="btn-arrow-left"></button>
+                <button type="button" class="btn-arrow-right"></button>
+            </div>
+            <div class="active">
+                <img src="./image/active-non.svg" alt="active">
+                <img src="./image/active.svg" alt="active">
+                <img src="./image/active-non.svg" alt="active">
+                <img src="./image/active-non.svg" alt="active">
+            </div>
+        </section>
+        <section class="share">
+            <p>Share your setup with</p>
+            <h2>#FuniroFurniture</h2>
+            <div class="share__image">
+                <img class="image-1" src="./image/share-1.svg" alt="share">
+                <img class="image-2" src="./image/share-2.svg" alt="share">
+                <img class="image-3" src="./image/share-3.svg" alt="share">
+                <img class="image-4" src="./image/share-4.svg" alt="share">
+                <img class="image-5" src="./image/share-5.svg" alt="share">
+                <img class="image-6" src="./image/share-6.svg" alt="share">
+                <img class="image-7" src="./image/share-7.svg" alt="share">
+                <img class="image-8" src="./image/share-8.svg" alt="share">
+                <img class="image-9" src="./image/share-9.svg" alt="share">
+            </div>
+        </section>
     </main>
 
 
@@ -277,8 +314,6 @@
             </div>
         </section>
     </footer>
-
-
 
 
     <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
